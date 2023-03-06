@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;900&display=swap" rel="stylesheet">
+    <title>
+        pod request access landing page
+    </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-container">
+            <img src="./assets/desktop/logo.svg" alt="cardio logo">
+        </header>
+        <main class="main-container">
+            <div class="main-div">
+                <section id="top-section">
+                    <p id="publish-podcast">
+                        PUBLISH YOUR PODCASTS <span>EVERYWHERE.</span>
+                    </p>
+                    <p id="upload-audio">
+                        Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+                        Apple
+                        Podcasts, Google Podcasts, Pocket Casts and more!
+                    </p>
+                </section>
+
+                <section id="button-logo">
+                    <div class="logos">
+                        <img id="spotify-logo" src="./assets/desktop/spotify.svg" alt="spotify logo">
+                        <img id="apple-logo" src="./assets/desktop/apple-podcast.svg" alt="apple logo">
+                        <img id="google-logo" src="./assets/desktop/google-podcasts.svg" alt="google logo">
+                        <img id="pocket-logo" src="./assets/desktop/pocket-casts.svg" alt="pocket logo">
+                    </div>
+                    <div id="input-div">
+                        <form class="form">
+                            <input id="input-email" type="email" placeholder="Email address">
+                            <button id="request-button" type="submit">
+                                Request Access
+                            </button>
+                        </form>
+                        <p id="error-p">
+                            Oops! Please check your email
+                        </p>
+                        <p id="success-p">
+                            Your email recieved
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="./script.js"> </script>
+</body>
+
+</html>
