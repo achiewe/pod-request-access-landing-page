@@ -147,6 +147,14 @@ body{
     text-align: left;
 }
 
+#input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:10px;
+}
+
 #error-p{
     display:none;
     color:var(--red);
@@ -313,8 +321,8 @@ body{
     #input-div{
         display:flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .form{
@@ -507,8 +515,8 @@ body{
     #input-div{
         display:flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .form{
