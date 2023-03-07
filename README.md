@@ -32,7 +32,7 @@ Users should be able to:
 ![](./assets/preview.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://achiewe.github.io/pod-request-access-landing-page/]
 
 ## My process
 
